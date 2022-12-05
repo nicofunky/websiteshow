@@ -1,0 +1,107 @@
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');/*font-family: 'Montserrat', sans-serif;*/
+
+.home {
+	background-image: url("../images/i1.jpg");
+	background-repeat: no-repeat;
+}
+
+.myh1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+}
+
+.myh2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.7em;
+}
+
+section {
+	width: 40%;
+	padding: 1% 5%;
+	margin: 2% 5%;
+    float: left;
+	background: rgba(255,250,130,0.45);
+}
+
+.nobg {
+	background-color: rgba(0,0,0,0.00);
+	width: 45%;
+	padding: 0%;
+	margin: 0% 1%;
+}
+
+aside {
+	width: 45%;
+	float: right;
+}
+
+.copy {
+	background: rgba(255,250,130,0.45);
+	width: 40%;
+	padding: 1% 5%;
+	margin: 2% 5%;
+}
+
+img {
+	width: 90%;
+	align-content: center;
+	margin: 5%;
+}
+
+.carl {
+	width: 80%;
+	margin: 2% 10%;
+	height: 50%;
+}
+
+.fourm {
+	width: 90%;
+	padding: 2% 2% 5% 2%;
+	margin: 2% 5%;
+	background-color: rgba(255,174,0,0.47);
+}
+
+.mya {
+	color: #fff;
+}
+
+.logo {
+	width: 4.5%;
+	display: inline-block;
+	margin: 0%;
+}
+
+.bloom {
+	width: 5%;
+	margin: 0% 1%;
+}
+
+footer {
+	background-color: rgba(255,134,0,0.70);
+	position: relative;
+	width: 100%;
+	padding: 1%;
+	color: #fff;
+	text-align: center;
+    clear: both;
+    bottom: 0%;
+}
+
+@media (max-width: 992px) {
+	
+section, aside, .copy, .nobg {
+	width: 95%;
+    margin: 2% 2.5%;
+    padding: 2% 2.5%;
+    float: none;
+	clear: both;
+}
+
+.logo {
+	width: 10%;
+}
+	
+}
