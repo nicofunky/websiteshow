@@ -1,0 +1,426 @@
+@charset "UTF-8";
+
+/*imported font from google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap');
+
+/*---------------------------------- general styling for the pages ------------------------*/
+
+* { 
+	margin: 0; 
+	padding: 0; }
+
+body {
+	background-image: linear-gradient(#A6FCFC,#0e7575); 
+	width: auto; 
+	height: auto; 
+	margin: 0 auto; 
+	background-repeat: no-repeat; 
+	background-color: #0C5050;
+}
+
+header {
+  	background-color: #0C5050;
+}
+
+footer {
+	background-color: #0C5050;
+
+}
+
+img {
+	display: block;  
+	margin: 4px ;}
+
+h1 {
+	color: #4DC6F0; 
+	font-size: 27px; 
+	font-family: 'Work Sans', sans-serif; }
+
+.h11 {
+	text-align: center;
+	color: #1C8484; 
+	font-size: 47px; 
+	font-family: 'Work Sans', sans-serif;
+	text-decoration: 2px underline #F50019;
+}
+
+h2 {
+	font-family: "Optima", sans-serif; 
+	color: #0C5050;  
+	font-size: 25px; 
+	padding: 1% 1% 1% 10%;}
+
+.h21:hover {
+	background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.itb.ie%2FLocation%2Fimages%2FAerialShotMay2019.jpg&f=1&nofb=1);
+	background-size: 90%;
+	background-position: center;
+	background-repeat: no-repeat; 
+}
+
+h3 {
+	font-family: 'Raleway', sans-serif; 
+	color: #A6FCFC; 
+	text-align: center; 
+	font-size: 55px; background: #0C5050; }
+
+p {
+	border-left: 2px solid #F50019; 
+	border-right: 2px solid #F50019; 
+	color: white; 
+	margin: 0.5%; 
+	padding: 0.5%;
+	font-family: 'Work Sans', sans-serif;}
+
+.p1 {
+	border-style: none;
+	font-family: 'Poppins', sans-serif;
+	color: white; 
+	margin: 5%; 
+	padding: 5%;
+}
+
+.p2 {
+	border-style: none;
+	font-family: 'Poppins', sans-serif;
+	color: red; 
+	margin-left: 5%; margin-right: 5%;
+	padding-left: 5% ; padding-right: 5% ;
+}
+
+hr {
+	margin: 2% 5% 1% 5%;
+	color: #F50019;
+}
+
+/*--------------------- logo --------------------*/
+
+.me {
+    float: left;
+    height: 55px;
+    position: absolute;
+    left: 2%;
+}
+
+.me:hover {
+	background-image: url("../images/redwave.gif");
+}
+
+.lol {
+	border-radius: 50%;
+	width: 50%;
+	left: 50%;
+}
+
+/*------------------ code specificallly for photo1.html --------*/
+.move {height:auto ;
+		width: 250%;} 
+
+.move2 {height: auto ;
+		width: 80%;
+		}
+
+#move3  {height:auto ;
+		width: 100%;
+		align-content: center;} 
+
+.move4 {height: auto ;
+		width: 50%;
+		align-content: center;
+		}
+
+.two { clear: right; }
+
+/*-------------------- fourm stuff -----------------------------*/
+
+.b1 {
+	width: 100%;
+	padding: 2%;
+	font-family: 'Work Sans', sans-serif;
+	background-color: rgba(42, 125, 105, .6);
+	font-size: 350%;
+	color: #A6FCFC;
+	align-self: center;
+	border: 2px solid #F50019; 
+	position: absolute;
+	float: left;
+	margin: auto;
+	top: 58%;
+
+
+}
+
+.b1:hover {
+	background-color: rgba(42, 125, 105, .9);
+}
+
+#output {
+	display: none;
+}
+
+form, .results {
+	position: sticky;
+	top: 50px;
+	width: 70%;
+	margin: 5%;
+	border: 2px solid #2d7d69;
+	border-radius: 15px;
+	padding: 20px;
+	font-family: montserrat, verdana, sans-serif;
+	background: rgb(42, 125, 105);
+	background-image: linear-gradient(#8DEEEE,#0e7575); ;
+}
+fieldset {
+	background-color: #d9efea;
+	border: 2px dashed #0C5050;
+	border-radius: 10px;
+	padding: 10px;
+	margin-bottom: 20px;
+	padding: 2%;
+}
+
+legend {
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.5em;
+	color: #2f4c73;
+	background-color: #ffffff;
+	padding: 2px 4px;
+	border: 1px solid #0C5050;
+	border-radius: 5px;
+}
+
+label {
+	font-family: 'Rubik', sans-serif;
+}
+
+/* da form divs*/
+
+.instructions{
+	font-style: italic;
+}
+
+/*------------------- div tag stuff---------------------*/
+.row {
+	display: flex; 
+	width: auto; 
+	padding: 1%; 
+	justify-content: space-around;}
+
+.row2 {
+	display: flex; 
+	width: auto; 
+	padding: 1%; 
+
+	}
+
+.col3 {
+	width: 30%; 
+	margin: 1%;}
+
+.col2 {
+	width: 50%; 
+	margin: 1%;}
+
+.col4 {
+	width: 25%; 
+	padding-left: 1%; 
+	padding-right: 1%;}
+
+.site:hover {
+	background-color: #45C0C0;
+}
+
+/*----------------------- Whole nav bar code stuff ----------------*/
+
+.navigation {
+	display: flex; 
+	height: auto;  }
+
+ul {
+	list-style-type: none;
+	margin: 15px 70px 20px 20px;
+	float: right;
+	}
+
+li {
+	font-family: "Optima", sans-serif;
+	padding: 10px;
+ }
+
+a {
+	text-decoration: none;
+}
+
+.nav {
+	text-decoration:none;  
+	color:#A6FCFC;
+	 padding: 20px;
+	}
+.nopad {padding: 0px;}
+
+.no {background-color: rgba(0, 0, 0, 0)}
+.no:hover {background-color: rgba(0, 0, 0, 0)}
+
+.bc1 {
+	background: rgba(12, 80, 80, .3);	
+}
+
+.bc2 {
+	background: rgba(12, 80, 80, .6);
+}
+
+.under:hover {
+		text-decoration: underline;
+		text-decoration-color: #F50019;
+}
+
+.flyout {
+	padding: 20%;
+}
+
+.dropdown, .flyout{
+	position: relative;
+}
+.drop-nav, .flyout-nav{
+	position: absolute;
+	display: none;
+	padding: 10px;
+}
+
+.drop-nav li {
+	width: 150%;
+	height: 100%; 
+}
+
+.dropdown:hover > .drop-nav, .flyout:hover > .flyout-nav {
+	display: block;
+}
+
+.dropdown:after {
+	content: "\25BC";
+	display: block;
+	position: absolute;
+	top: 38%;
+	right: 12%;
+}
+
+.flyout-nav {
+	left: -149%;
+	top: -65%;
+}
+
+/*------------------- grid stuff ----------------------*/
+
+#mygrid {
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15%;
+    grid-template-rows:  200px 200px  ; 
+    grid-template-areas: 
+		"photoa photob photoc photod photoe"
+		"photof photog photoh photoi photoj" ;
+    grid-gap: 5%;
+    margin-left: 3.5%;
+}
+
+#item1 {grid-area: photoa; width: 40%; height: 40%;}
+
+#item2 {grid-area: photob; width: 40%; height: 40%;}
+
+#item3 {grid-area: photoc; width: 40%; height: 40%;}
+
+#item4 {grid-area: photod; width: 40%; height: 40%;}
+
+#item5 {grid-area: photoe; width: 40%; height: 40%;}
+
+#item6 {grid-area: photof; width: 40%; height: 40%;}
+
+#item7 {grid-area: photog; width: 40%; height: 40%;}
+
+#item8 {grid-area: photoh; width: 40%; height: 40%;}
+
+#item9 {grid-area: photoi; width: 40%; height: 40%;}
+
+#item10 {grid-area: photoj; width: 40%; height: 40%;}
+
+#mygrid2 {
+    display: grid;
+    grid-template-columns: 33% 33% 33% ;
+    grid-template-rows:  300px 300px 300px 300px  ; 
+    grid-template-areas: 
+		"photoa photob photoc"
+		"photod photoe photof"
+		"photog photoh photoi"
+		"photoj photok photol" ;
+    grid-gap: 5%;
+    padding: 5%;
+    margin: 3.5%;
+}
+
+#item11 {grid-area: photoa; width: 30%; }
+
+#item21 {grid-area: photob; width: 30%; }
+
+#item31 {grid-area: photoc; width: 30%; }
+
+#item41 {grid-area: photod; width: 30%; }
+
+#item51 {grid-area: photoe; width: 30%; }
+
+#item61 {grid-area: photof; width: 30%; }
+
+#item71 {grid-area: photog; width: 30%; }
+
+#item81 {grid-area: photoh; width: 30%; }
+
+#item91 {grid-area: photoi; width: 30%; }
+
+#item101 {grid-area: photoj; width: 30%; }
+
+#item111 {grid-area: photok; width: 30%; }
+
+#item121 {grid-area: photol; width: 30%; }
+
+#mygrid3 {
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15%;
+    grid-template-rows:  85% 50px  ; 
+    grid-template-areas: 
+		"photoa photob photoc photod photoe"
+		"photof photog photoh photoi photoj";
+    grid-gap: 5%;
+    margin-left: 3.5%;
+
+}
+
+#item12 {grid-area: photoa; width: 40%; height: 40%;}
+
+#item22 {grid-area: photob; width: 40%; height: 40%;}
+
+#item32 {grid-area: photoc; width: 40%; height: 40%;}
+
+#item42 {grid-area: photod; width: 40%; height: 40%;}
+
+#item52 {grid-area: photoe; width: 40%; height: 40%;}
+
+#item62 {grid-area: photof; width: 40%; height: 40%;}
+
+#item72 {grid-area: photog; width: 40%; height: 40%;}
+#item82 {grid-area: photoh;}
+#item92 {grid-area: photoi;}
+#item102 {grid-area: photoj;}
+
+
+
+/* -------------------- MEDIA QUERIES always at the end -------------------- */
+
+@media screen and (max-width: 1300px)
+{
+
+header h3 {
+  clear: both;
+}
+}
+
+
