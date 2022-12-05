@@ -1,0 +1,66 @@
+/*imported font from google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+/*general styling for the pages*/
+body {background-image: linear-gradient(#000000, #0F1236); width: 100%; height: 100%; margin: 0 auto;}
+img {display: block; margin: 0 auto; height: 150px;}
+h1 {color: #DB0016; text-align: center; font-size: 27px; font-family: 'Work Sans', sans-serif;}
+h2 {font-family: "Optima", sans-serif; color: #00AAB8; text-align: center; font-size: 25px;}
+h3 {font-family: 'Raleway', sans-serif; color: #00AAB8; text-align: center; font-size: 55px; }
+p {border-left: 2px solid #F50019; border-right: 2px solid #F50019; color: #00AAB8; padding: 0.5%; font-family: 'Work Sans', sans-serif;}
+.psource {font-family: 'Work Sans', sans-serif, italic; text-align: right; font-size: 14px; color: #00AAB8; border-left: 0px; border-right: 0px;}
+.imgmovie {display: block; margin: 0 auto; height: 750px; padding: .5%; }
+.nasu {height: 250px;}
+
+/*index fun code it make it less boring on hover*/
+.homeb: {width: 50%;}
+.homem: {width: 50%;}
+.homeb:hover { background-image: url("../images/nasu1.png");  background-repeat: no-repeat; background-position: center;}
+.homem:hover {; background-image: url("../images/movie8gif.gif");  background-repeat: no-repeat; background-position: center;}
+
+/*no as in no background-color on hover. looking back, i should have just used this as default and used this on tags for the menu bar :/ */
+.no {background-color: rgba(0, 0, 0, 0);padding: .5%; }
+.no:hover {background-color: rgba(0, 0, 0, 0);padding: .5%;}
+
+/*div tag stuff*/
+.row {display: flex; width: auto; padding: 1%; justify-content: space-around;}
+.col3 {width: 33.33%; margin: 1%;}
+.col2 {width: 50%; padding-left: 1%; padding-right: 1%;}
+.col4 {width: 25%;}
+
+
+/*specifically movie page stuff*/
+.col311 {width: 33.33%; margin: .50%; background-image: url("../images/movie1.jpg"); background-size: 85%; background-repeat: no-repeat; background-position: center;}
+.col311:hover {background-image: url("../images/movie1gif.gif")}
+
+.col312 {width: 33.33%; margin: .50%; background-image: url("../images/movie2.jpg"); background-size: 85%; background-repeat: no-repeat; background-position: center;}
+.col312:hover {background-image: url("../images/movie2gif.gif")}
+
+.col313 {width: 33.33%; margin: .50%; background-image: url("../images/movie3.jpg"); background-size: 85%; background-repeat: no-repeat; background-position: center;}
+.col313:hover {background-image: url("../images/movie3gif.gif") ;}
+
+.col314 {width: 33.33%; margin: .50%; background-image: url("../images/movie4.jpg"); background-size: 85%; background-repeat: no-repeat; background-position: center;}
+.col314:hover {background-image: url("../images/movie4gif.gif")}
+
+.col315 {width: 33.33%; margin: .50%; background-image: url("../images/movie5.jpg"); background-size: 85%; background-repeat: no-repeat; background-position: center;}
+.col315:hover {background-image: url("../images/movie5gif.gif")}
+
+.col316 {width: 33.33%; margin: .50%; background-image: url("../images/movie6.jpg"); background-size: 85%; background-repeat: no-repeat; background-position: center;}
+.col316:hover {background-image: url("../images/movie6gif.gif")}
+
+.col317 {width: 33.33%; margin: .50%; background-image: url("../images/movie7.jpg"); background-size: 85%; background-repeat: no-repeat; background-position: center;}
+.col317:hover {background-image: url("../images/movie7gif.gif")}
+
+.col318 {width: 33.33%; margin: .50%; background-image: url("../images/movie8.jpg"); background-size: 85%; background-repeat: no-repeat; background-position: center;}
+.col318:hover {background-image: url("../images/movie8gif.gif")}
+
+.col319 {width: 33.33%; margin: .50%; background-image: url("../images/movie9.jpg"); background-size: 85%; background-repeat: no-repeat; background-position: center;}
+.col319:hover {background-image: url("../images/movie9gif.gif")}
+
+/*menu bar things*/
+ul {list-style-type: none; margin: 0 auto; padding: 20px;}
+li {font-family: "Optima", sans-serif;display:inline; }
+a {text-decoration:none; font-family: "Optima", sans-serif;display:inline; color:#DB0016; padding: 20px;}
+a:hover {background-color: #360400;}
+.navigation {display: flex; height: auto; }
