@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Form Results- Submited user data</title>
+	<link rel="stylesheet" type="text/css" href="css/layout.css">
+</head>
+<body>
+
+	<div class="results">
+		<h3>Cheers!</h3>
+		<p>Thank you for your feedback! This will be greatly treasured and cherished until the end of time.</p>
+
+		<h2>Your submitted data:</h2>
+
+		<div id="userdata"></div>
+			
+		<p><a href="wd2.html">Return to Web Dev 2</a></p>
+	</div>
+
+	<div id="userdata"></div>
+
+	    <script>
+       
+        const dataList = document.getElementById("userdata")
+        new URLSearchParams(window.location.search).forEach((value, name) => {
+            dataList.append(`${name}: ${value}`)
+            dataList.append(document.createElement('br'))
+        }) 
+   
+    </script> 
+
+</body>
+</html>

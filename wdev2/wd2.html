@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Web Dev 2</title>
+	<link rel="stylesheet" type="text/css" href="css/layout.css">
+</head>
+	<body>
+<!---------------------------- Top of Screen stufffff ------------------->
+        <header>
+            <ul class="navigation"> 
+                
+                <li class="dropdown"><a class="nav" href="#"> Year 1 </a>
+                <ul class="drop-nav">
+                    <li class="flyout"><a class="nav bc2" href="">Semester 1</a>
+                        <ul class="flyout-nav">
+                            <div class="bc1">   
+                                <li ><a class="nav under" href="pd.html"> Personal Development </a></li>
+                                <li ><a class="nav under" href="wd1.html"> Web Development 1 </a></li>
+                                <li ><a class="nav under" href="vc.html"> Visual Creativity </a></li>
+                                <li ><a class="nav under" href="photo1.html"> Digital Photography </a></li>
+                                <li ><a class="nav under" href="itdm.html">Introduction to Digital Media </a></li>  
+                            </div>
+                        </ul>   
+                    </li>
+
+                    <li class="flyout"><a class="nav bc2" href="">Semester 2</a>
+                        <ul class="flyout-nav">
+                            <div class="bc1">   
+                                <li ><a class="nav under" href="dpp.html"> Design Process & Practive </a></li>
+                                <li> <a class="nav under" href="wd2.html"> Web Development 2 </a></li>
+                                <li ><a class="nav under" href="ud.html"> Universal Design </a></li>
+                                <li ><a class="nav under" href="stnr.html"> Storytelling & Narrative </a></li>
+                                <li ><a class="nav under" href="photo2.html"> Studio & Image Production </a></li>
+                            </div>
+                        </ul>
+                    </li>
+                </ul>
+
+                <li><a class="nav" href="goals.html"> Goals </a></li>
+                <li><a class="nav" href="about.html"> About Me </a></li>
+                <li><a class="nav" href="personal.html"> Personal </a></li>
+
+            </ul>
+            
+            
+<a href="index.html"><img class="me" src="images/me.png"></a>
+
+			<h3 id="header">Web Development 2</h3>
+		</header>
+		
+
+<!----------------- Body ------------------>	
+	<main>
+		<h2>Presenting, <br>
+			The main Web Development Project. Lead by Helen Williams.</h2>
+	
+		<hr>
+		<h1 class="h11">THIS WEBSITE <br>
+					THAT YOU ARE VIEWING RIGHT NOW!</h1>
+
+		<p class="p1">
+			Everything that was learned during the Web Development 2 was apllied to this website.
+			<br><br>
+			While you're here, do you mind doing this short form?
+		</p>
+	<form action="userdata.html" method="get" enctype="multipart/form-data">
+
+	<fieldset>
+<legend>
+Website Feedback
+</legend>
+
+		<p class="p2">Please enter your details below.</p>
+
+		<div>
+			<label for id="firstname">First Name:</label>
+			<input type="text" name="firstname" id="firstname" required="">
+		</div>
+
+		<div>
+			<label for id="lastname">Last Name: </label>
+			<input type="text" name="lastname" id="lastname" required="">
+		</div>
+
+		<div>
+			<label for id="email">Email: </label>
+			<input type="email" name="email" id="email" required="">
+		</div>
+
+		<div>
+			<label for id="tel">Phone: </label>
+			<input type="tel" name="tel" id="tel" required="">
+		</div>
+
+			<label for id="password">Password: </label>
+			<input type="password" name="password" id="password" required="">
+		<div>
+
+	</fieldset>	
+
+	<fieldset>
+		<legend>A bit about youself</legend>
+		<p class="p2">When and where were you born?</p>
+		<div>
+			<label for id="country">Country: </label>
+			<input type="text" name="country" id="country" value="Ireland">
+		</div>
+
+		<div>
+			<label for id="nationality">Country: </label>
+			<input type="text" name="nationality" id="nationality" placeholder="If dual, enter both">
+		</div>
+
+		<div>
+			<label for id="age">Age: </label>
+			<input type="number" name="age" id="age" min="0" max="159"  >
+		</div>
+
+		<div>
+			<label for id="dob">date of birth: </label>
+			<input type="date" name="dob" id="dob" min="2006-06-17"  >
+		</div>
+
+	</fieldset>
+	<fieldset>
+		<legend>Website layout</legend>
+		<p class="p2">How does website navigation feel?</p>
+		<div>
+			<input type="radio" name="subject" id="amazing" value="amazing" checked="">
+			<label for="amazing">Amazing</label>
+		</div>
+		<div>
+			<input type="radio" name="subject" id="good" value="good">
+			<label for="good">Good</label>
+		</div>
+		<div>
+			<input type="radio" name="subject" id="bad" value="bad">
+			<label for="bad">Bad</label>
+		</div>
+		<div>
+			<input type="radio" name="subject" id="eww" value="eww">
+			<label for="eww">God-awful</label>
+		</div>
+
+		<p class="p2">Out of these pages, which ones do you like?</p>
+
+		<div>
+			<input type="checkbox" name="home" id="home">
+			<label for="home">Home Page</label>
+		</div>
+		<div>
+			<input type="checkbox" name="perosnal" id="perosnal">
+			<label for="perosnal">Personal Page</label>
+		</div>
+		<div>
+			<input type="checkbox" name="wd1" id="wd1">
+			<label for="wd1">Web Dev 1 page</label>
+		</div>
+		<div>
+			<input type="checkbox" name="wd1p" id="wd1p">
+			<label for="wd1p">Web Dev 1 Project page</label>
+		</div>
+		<div>
+			<input type="checkbox" name="itdm" id="itdm">
+			<label for="itdm">Intro to Digital Media page</label>
+		</div>
+		<div>
+			<input type="checkbox" name="wd2" id="wd2" checked="">
+			<label for="wd2">Web Dev 2 page</label>
+		</div>
+
+		
+	</fieldset>
+
+	<fieldset>
+		<legend>Further Qestions</legend>
+		<p class="p2">Which module seems the best to you?</p>
+
+		<div>
+			<label for="easter">Choose a module:</label>
+			<select name="modules" id="modules">
+				<optgroup label="Semester 1">
+					<option value="pd">Personal Development</option>
+					<option value="wd1">Web Dev 1</option>
+					<option value="vc">Visual Creativity</option>
+					<option value="dp">Digital Photography</option>
+					<option value="itdm">Intro to Digital Media</option>
+				</optgroup>
+				<optgroup label="Semester 2">
+					<option value="dpp">Design Process & Practive</option>
+					<option value="wd2">Web Development 2</option>
+					<option value="ud">Universal Design</option>
+					<option value="stn">Storytelling & Narrative</option>
+					<option value="spim">Studio & Image Production</option>
+				</optgroup>
+			</select>
+		</div>
+
+		<p class="p2">How many web pages is enough?</p>
+
+		<div>
+			<label for="howmany">Your Answer: </label>
+			<select name="howmany" id="howmany" multiple="">
+				<option value="12">12</option>
+				<option value="22">17-22</option>
+				<option value="infinite">No such thing</option>
+
+			</select>
+
+		</div>
+
+		<p class="p2">Do you have any other feedback for this website?</p>
+		<div>
+			<label for="bunnytext">Your Answer: </label>
+			<textarea name="bunnytext" id="bunnytext" cols="50" rows="4" placeholder="Feedback goes here."></textarea>
+		</div>
+
+		<p class="p2">Upload a logo sugestion, if you want.</p>
+
+		<div>
+			<label for="myfile">Select a file:</label>
+			<input type="file" name="myfile" id="myfile">
+		</div>
+
+	</fieldset>
+
+		<button type="submit">Submit Form</button>
+		<button type="reset">Reset form</button>
+
+	</div>
+
+	</form>
+
+	</main>
+
+<!---------------- footer code ----------------------->
+		<footer>
+		<div class="row2">
+        		<div class="col4">
+            		<h1>Copyright Krzysztof Gancarz</h1>
+        		</div>
+        	<div class="col4">
+        		
+            	<a href="sitemap.html"><p class="site">Site-map link</p></a>
+        	</div>
+        	<div class="col4">
+        		<p>Contact:</p>
+           		<h1><br></h1>
+        	</div>
+        	<div class="col4">
+        		<p>temp@email.com</p>
+        		<p>089 tem p.no</p>
+       		</div>
+    	</div>
+		</footer>
+	</body>
+</html>
