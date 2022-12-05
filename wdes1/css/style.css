@@ -1,0 +1,477 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+/*Global se*/
+body{background-color:#FFFFFF;}
+
+header{background-color: #A8E6CF;
+       text-align: center; }
+
+footer{background-color: #A8E6CF;
+       text-align: center;
+       z-index: 5}
+
+
+section{text-align: center;
+        background-color:#A8E6CF}
+
+
+
+#fixed{ position: fixed;
+        bottom: 10px;
+        right: 5px;}
+
+
+.row{display: flex;/*allows all the coluns on each row to fit side by side*/
+    background-color:#FFAAA5;
+    margin-bottom: 7%;
+    padding: 3%;
+    text-align: center;
+    height: auto;}
+
+.fb-page{margin: auto;
+    display: block;
+}
+
+  
+
+
+#homecol{ background-color: #A8E6CF}
+
+#homecol1{ background-color: #A8E6CF}
+
+.col2{  width: 50%;
+        padding: 20px;}
+
+/*-----classes used to merge logo with navbar in moble view---*/
+
+.hideonsmall{
+
+}
+
+.showonsmall{
+
+}
+
+/*----------------------------------------------*/
+
+h1{ font-size: 100px;
+    font-family:'Oswald';
+    color: #FFFFFF}
+
+h2{ font-size: 5px;
+    font-family:'Oswald';
+text-align: center}
+
+h3{ color: #ffffff;
+    text-align: center;
+    font-size: 1em}
+
+h4{color: #ffffff;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1em;
+    padding: 0px;  }
+
+p{  color: grey;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    padding: 2%;}
+
+
+a1{ color: #ffffff;
+    font-size: 50px;}
+
+.pic{
+    width: 100%;
+    padding: 1%;
+    }
+
+
+
+.pics2{width: 80%;
+        padding: 10px;}
+
+.pics3{width: 33%;
+padding: 5px;}
+
+/*Main Nav Bar CSS*/
+.navigation{background-color: #A8E6CF;
+            display: flex;
+            height: auto;
+            margin-bottom: 20px;}
+/*Main Nav Bar CSS*/
+
+nav{z-index: 10;}
+
+ul {
+    list-style-type: none; 
+    padding:10px;
+    margin:0 auto;}
+
+li {
+    background: #FFAAA5;
+    float: left;  /*without this, the blocks won't sit beside each other*/
+    padding: 16px;
+    position: relative; /*this sets the position to line up the downdowns*/
+    display: inline;}
+
+a {
+  font-family: 'Jura', sans-serif;
+  text-decoration: none;
+  color:#ffffff;/*white color*/
+}
+
+li:hover {
+    background: #A8E6CF;
+    cursor: pointer; /*this changes the cursor from a pointer to a hand*/}
+
+ul li ul {/*this is targetting the ul element inside the li element that is inside the ul element*/
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    margin-top: 16px; 
+    left: 0;
+    z-index: 1;}
+
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;}
+
+ul li ul li {
+  width: 200%;}
+
+.selected{background-image: linear-gradient(to bottom right,#FFAAA5 ,#DCEDC1 );
+
+}
+
+/*-----------------------------------*/
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color:#A8E6CF;
+  color: white;
+}
+
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: #FF8B94;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: #FF8B94;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #A8E6CF;
+  
+}
+
+
+/*-----------------------------------*/
+
+/*------photogrid----*/
+#mygrid{ display: grid;
+        grid-gap: 15px;
+        grid-template-columns: repeat(5, 19%);
+  	    margin:auto;}
+
+.pics{width: 100%;
+    height: auto;}
+
+
+/* Scroll bar code from w3schools */
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 25px white; 
+    border-radius: 5px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #FFAAA5; 
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #FFAAA5; }
+    
+    
+
+/*-------------------------*/
+
+
+form, .results{position: relative;
+                top: 50px;
+                width: 400px;
+                margin: auto;
+                border: 2px solid #005698 ;
+                border-radius: 15px;
+                padding: 20px;
+                font-family: montserrat,verdana, sans-serif;
+                background: #FFAAA5;
+                z-index: 0;}
+
+h3{ color: white;
+    margin-bottom: 20px;}
+
+h1{font-size: 100px;
+    font-family:'Oswald';
+    padding: 0px;
+    color: #FFFFFF}
+
+h2{font-size: 20px;
+    font-family:'Oswald'; }
+
+fieldset{   background-image: linear-gradient(to bottom right,#A8E6CF,#DCEDC1 );
+            border: none;
+            border-radius: 10px;
+            padding: 10px;
+            margin-bottom: 20px;}
+
+legend{ font-size: 1.3em;
+        color: #2f4c73;
+        background-color: #ffffff;
+        padding: 2px 4px;
+        border: 1px dotted #2d7d69;
+        border-radius: 5px;
+        margin: auto;}
+
+/*-------------------------*/
+
+.instructions{font-style: italic;}
+
+.divA, .divB, .divC, .divD, .divE{margin: 12px 0;}
+
+textarea{border-radius: 5px;
+        padding: 5px;
+        height: 80px;
+        width: 100%;
+box-sizing: border-box;}
+
+button{padding: 10px;
+        margin: 10px;
+        border-radius: 5px;
+        border: #d9efea 1px solid;
+        color: white;
+        background-color: #9BCCF5;
+        font-weight: bold;}
+
+button:hover{ background-color: darkred;}
+
+.leftbutton, .rightbutton{width: 50%;
+                            float: left;}
+
+#submit{float: right;}
+
+#reset{float: left;
+}
+
+
+.results{color: white; 
+}
+
+.results p {margin: 20px 0;}
+
+#userdata{color: yellow;}
+
+.results a {color: #d9efea;}
+
+.results a:hover{ color: darkred;}
+
+header{background-color: #9BCCF5;
+       text-align: center; } 
+
+section{text-align: center;
+        background-color:#47A2E7}
+
+
+/*---------------*/
+.row2 {
+  display: flex;
+  flex-wrap: wrap;
+  padding:0 4px;
+    
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+
+/*---------Media Queries ----------------*/
+
+
+
+@media screen and (max-width:800px)
+ {
+    #navbar{display: none;}
+
+    .hideonsmall{
+        display: none;
+    }
+     
+     @media screen and (min-width:800px)
+ {
+    #video1{width: 100%;}
+
+   
+    }
+    
+
+    @media screen and (max-width:800px)
+ {
+    #facebook{display: none;}
+    }
+     
+@media screen and (max-width:800px)
+ {
+     #Design1{width: 30%;}
+
+    }
+
+    @media screen and (max-width:800px)
+ {
+     #Design2{width: 30%;}
+
+    }
+
+    @media screen and (max-width:800px)
+ {
+     #Design3{width: 30%;}
+
+    }
+
+/*---following code collapses a side-by-side div on top of eachother,
+-----use for mobile page, see Aboutus.html page to see how it works-*/
+
+    .col2{
+      width: unset;   
+    }
+
+    .row{
+        display: block;
+        height: 100%;
+        padding: 2%;
+    }
+
+    h1, h2, h3, h4, p{
+        font-size: 1.6em;
+    }
+}
+
+@media screen and (min-width:800px)
+ {
+    #hamburger{display: none;}
+
+    .showonsmall{
+        display: none;
+    }    
+}
+
+@media screen and (min-width:1200px)
+ {
+    h1, h2, h3, h4, p{
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (min-width:1600px)
+ {
+    h1, h2, h3, h4, p{
+        font-size: 1.2em;
+    }   
+}
+
+@media screen and (min-width:300px)
+ 
+ {
+     #mygrid {width: 25%}}
+
+
+
+
+
